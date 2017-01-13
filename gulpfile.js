@@ -4,7 +4,7 @@ var minifyCSS = require('gulp-csso');
 var watch = require('gulp-watch');
 
 gulp.task('css', function(){
-  gulp.src('./assets/src/*.less')
+  gulp.src('./assets/src/style.less')
     .pipe(less())
     .pipe(minifyCSS())
     .pipe(gulp.dest('./assets/dist/'))

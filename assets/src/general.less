@@ -1,0 +1,44 @@
+//General
+body {
+  font: 300 22px/34px @avenir-light;
+  color: #12364f;
+  padding: 0;
+  border: 0;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #fdfdfd;
+  border: 1px solid #f4f4f4;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: @screen-sm) {
+  .wrapper {
+    border: 0;
+  }
+}
+
+@media (max-width: @screen-xs) {
+  .container {
+    width: 100%;
+  }
+}
+

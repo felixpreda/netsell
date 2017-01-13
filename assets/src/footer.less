@@ -1,0 +1,36 @@
+//Footer
+footer {
+  height: 90px;
+  background: #0d171f;
+  color: #fff;
+
+  div {
+    font: 14px @avenir-medium;
+    line-height: 90px;
+  }
+
+  .terms-conditions {
+    text-align: right;
+  }
+}
+
+@media (max-width: @screen-md) {
+  footer {
+    padding-top: 24px;
+
+    div {
+      line-height: initial;
+      text-align: center;
+    }
+
+    .terms-conditions {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: @screen-xs) {
+  footer .terms-conditions {
+    padding-top: 10px;
+  }
+}

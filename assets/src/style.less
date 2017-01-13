@@ -1,5 +1,31 @@
-body {
-  font: 14px Arial;
-  background: #fff;
-  margin: 0;
-}
+/**
+ * Main LESS project file
+ * Compiles all vendors and our application into one CSS file
+ */
+
+/* Bootstrap */
+@import "bootstrap/bootstrap.less";
+
+/* Overriding bootstrap properties */
+@import "overbootstrap.less";
+
+/* Fonts */
+@import "fonts.less";
+
+/* General styling */
+@import "general.less";
+
+/* Header */
+@import "header.less";
+
+/* About Us */
+@import "about.less";
+
+//Our clients
+@import "clients.less";
+
+//Contact
+@import "contact.less";
+
+//Footer
+@import "footer.less";

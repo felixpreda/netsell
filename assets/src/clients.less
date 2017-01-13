@@ -1,0 +1,78 @@
+//Our clients
+.our-clients {
+  background: url('../images/clients_bg.jpg') no-repeat;
+  background-size: cover;
+  min-height: 787px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 85px;
+
+  h2 {
+    font: 900 40px/34px @avenir-black;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+  }
+
+  .logos-clients {
+    padding: 0;
+    margin: 0 auto;
+
+    li {
+      background: rgba(30, 47, 62, 0.97);
+      width: 225px;
+      height: 226px;
+      display: inline-block;
+      cursor: pointer;
+      margin: 6px 8px;
+    }
+
+    .grand {
+      background: rgba(30, 47, 62, 0.97) url('../images/logo_grand.png') center center no-repeat;
+    }
+
+    .kings {
+      background: rgba(30, 47, 62, 0.97) url('../images/logo_kings.png') center center no-repeat;
+    }
+
+    .peldonrose {
+      background: rgba(30, 47, 62, 0.97) url('../images/logo_peldonrose.png') center center no-repeat;
+    }
+
+    .studio {
+      background: rgba(30, 47, 62, 0.97) url('../images/logo_studio.png') center center no-repeat;
+    }
+
+    .barclays {
+      background: rgba(30, 47, 62, 0.97) url('../images/logo_barclays.png') center center no-repeat;
+    }
+
+    .ministry {
+      background: rgba(30, 47, 62, 0.97) url('../images/logo_ministry.png') center center no-repeat;
+    }
+
+    .freeview {
+      background: rgba(30, 47, 62, 0.97) url('../images/logo_freeview.png') center center no-repeat;
+    }
+
+    .sony {
+      background: rgba(30, 47, 62, 0.97) url('../images/logo_sony.png') center center no-repeat;
+    }
+  }
+}
+
+@media (max-width: @screen-sm) {
+  .our-clients {
+    padding: 50px 0 30px;
+
+    h2 {
+      margin-bottom: 40px;
+    }
+
+    .logos-clients {
+      //width: 80%;
+    }
+  }
+}

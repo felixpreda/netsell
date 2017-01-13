@@ -1,0 +1,48 @@
+//About us
+.about-us {
+  padding: 70px 15px;
+
+  .about-title {
+    padding-left: 40px;
+  }
+
+  h2 {
+    font: 900 22px/32px @avenir-black;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #286191;
+    display: inline-block;
+
+    &:before {
+      display: block;
+      content: '';
+      width: 85%;
+      height: 5px;
+      background: #286090;
+      margin: 10px 0 18px;
+    }
+  }
+}
+
+@media (max-width: @screen-sm) {
+  .about-us {
+
+    .about-title {
+      padding-left: 15px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: @screen-xs) {
+  .about-us {
+    padding: 80px 15px 50px;
+
+    h2 {
+
+      &:before {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
